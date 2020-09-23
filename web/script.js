@@ -16,6 +16,6 @@ function fadeJQ() {
 $(document).ready(function() {
   console.log("The document is ready.");
   //I figure there's no sense rewriting it.
-  $("#color-button").on("click", colorChange());
-  $("#fade-button").on("click", fadeJQ());
+  $("#color-button").on("click", colorChange);
+  $("#fade-button").on("click", fadeJQ);
 });
