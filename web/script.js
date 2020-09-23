@@ -9,7 +9,7 @@ function colorChange() {
 }
 
 function fadeJQ() {
-  $("#grid-column3").toggle("slow");
+  $("#grid-column3").toggle(3000);
 }
 
 //Don't let these work until the document is ready
