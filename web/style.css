@@ -9,6 +9,7 @@
 
 .grid-column {
   font-size: 15px;
+  margin: 10%;
   place-self: center;
 }
 
