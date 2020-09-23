@@ -1,0 +1,19 @@
+.grid-container {
+  display: inline-grid;
+}
+
+.grid-column {
+  font-size: 15px;
+}
+
+#grid-column1 {
+  background-color: #b090b0;
+}
+
+#grid-column2 {
+  background-color: #90b0b0;
+}
+
+#grid-column3 {
+  background-color: #b0b090;
+}
