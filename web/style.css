@@ -5,6 +5,7 @@
 .grid-row {
   display: inline-grid;
   gap: 10px;
+  grid-template-columns: 30% 30% 30%;
 }
 
 .grid-column {
