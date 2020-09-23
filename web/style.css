@@ -20,6 +20,11 @@
   font-weight: bold;
 }
 
+.button-holder {
+  place-self: center;
+  width: 25%;
+}
+
 #grid-column1 {
   background-color: #b090b0;
   grid-column-start: 1;
