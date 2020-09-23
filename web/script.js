@@ -13,7 +13,7 @@ function fadeJQ() {
 }
 
 //Don't let these work until the document is ready
-$(function() {
+$(document).ready(function() {
   console.log("The document is ready.");
   //I figure there's no sense rewriting it.
   $("#color-button").on("click", colorChange());
