@@ -4,11 +4,12 @@
 
 .grid-row {
   display: inline-grid;
+  gap: 10px;
 }
 
 .grid-column {
   font-size: 15px;
-  width: 30%;
+  place-self: center;
 }
 
 .grid-column:hover {
