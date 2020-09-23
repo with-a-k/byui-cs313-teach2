@@ -6,14 +6,24 @@
   font-size: 15px;
 }
 
+.grid-column:hover {
+  font-style: bold;
+}
+
 #grid-column1 {
   background-color: #b090b0;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 #grid-column2 {
   background-color: #90b0b0;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 #grid-column3 {
   background-color: #b0b090;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
