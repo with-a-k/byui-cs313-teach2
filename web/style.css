@@ -8,6 +8,7 @@
 
 .grid-column {
   font-size: 15px;
+  width: 30%;
 }
 
 .grid-column:hover {
