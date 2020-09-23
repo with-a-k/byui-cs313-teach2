@@ -2,12 +2,16 @@
   display: inline-grid;
 }
 
+.grid-row {
+  display: inline-grid;
+}
+
 .grid-column {
   font-size: 15px;
 }
 
 .grid-column:hover {
-  font-weight: : bold;
+  font-weight: bold;
 }
 
 #grid-column1 {
