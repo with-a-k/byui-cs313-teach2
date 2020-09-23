@@ -9,17 +9,12 @@ function colorChange() {
 }
 
 function fadeJQ() {
-  $("#grid-column3").hide("slow");
-  $("#fade-button").on("click", unfadeJQ());
-}
-
-function unfadeJQ() {
-  $("#grid-column3").show("slow");
-  $("#fade-button").on("click", fadeJQ());
+  $("#grid-column3").toggle("slow");
 }
 
 //Don't let these work until the document is ready
 $(function() {
+  console.log("The document is ready.");
   //I figure there's no sense rewriting it.
   $("#color-button").on("click", colorChange());
   $("#fade-button").on("click", fadeJQ());
